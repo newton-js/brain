@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 248, 250); 
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bolder;
+    color: black;
+}
+
+.count{
+    height: fit-content;
+    width: fit-content;
+    background-color: aqua;
+    margin: 2px;
+    padding: 0 7px;
+    background-color: rgba(97, 185, 236, 0.411);
+    border-radius: 5px;
+    color: royalblue;
+    font-family: monospace;
+}
+
+a:active, a:visited , a:link{
+    text-decoration: none;
+    color: royalblue;
+}
+
+svg{
+    height: 1.5rem;
+}
